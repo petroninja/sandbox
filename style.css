@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+}
+
+.header {
+	height:200px;
+	background-image: url("res/header.jpg");
+	background-position: right center;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+.header h1
+	{
+	padding:70px 0;
+	color:#fff;
+	font-size: 52px;
+}
+
+.column1 {
+	background: #00ccff;
+}
+.column2 {
+	background: #ccff00;
+}
+.column3 {
+	background: #ff00cc;
+}
+.column4 {
+	background: #00ffcc;
+}
+.column5 {
+	background: #cc00ff;
+}
+.column6 {
+	background: #ffcc00;
+}
+.column7 {
+	background: #cccccc;
+}

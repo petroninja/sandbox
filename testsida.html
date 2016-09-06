@@ -5,8 +5,12 @@
 			Min testsida
 		</title>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body style="background-color:lightsalmon">
 		<h1>
 			Min testsidas rubbe
 		</h1>
@@ -18,13 +22,27 @@
 			<li>En annan grej</li>
 			<li>Och en tredje grej</li>
 		</ul>
-		<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/1b9/2b8/2d0afa9.jpg">
+		<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/1b9/2b8/2d0afa9.jpg" style="border: 4px solid #000; margin: 20px">
 		<form>
-			Vad heter hon?<br />
-			<input type="text" name="name" value="Gissa här"><br />
-		  	Vad vill hon?<br />
+			<p>
+				Vad heter hon?<br />
+				<input type="text" name="name" value="Gissa här"><br />
+		  	</p>
+		  	<p>	
+		  		Vad vill hon?<br />
 			<input type="text" name="want" value="Gissa här också"><br />
+		</p>
 			<input type="submit" value="Skicka nånstans">
 		</form>
+		<div class="row">
+	      <div class="col-md-4 column1">Kolumn 1</div>
+	      <div class="col-md-4 column2">Kolumn 2</div>
+	      <div class="col-md-4 column3">Kolumn 3</div>
+    	</div>
+
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
